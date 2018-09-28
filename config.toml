@@ -1,0 +1,4 @@
+baseURL = "https://spencerhuang.netlify.com"
+languageCode = "en-us"
+title = "Spencer Huang"
+publishDir = "dist"
