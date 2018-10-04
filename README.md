@@ -54,7 +54,7 @@ or
 gulp server-preview
 ```
 
-Then visit "http://localhost:3000/" *- or a new browser windows popped-up already
+Then visit `http://localhost:3000/` *- or a new browser windows popped-up already
 -* to preview your new website. BrowserSync will automatically reload the CSS
 or refresh the whole page, when stylesheets or content changes.
 
@@ -93,11 +93,11 @@ See [package.json](package.json#L7) or the included gulp file for all tasks.
 
 You can read more about Hugo's template language in their documentation here:
 
-"https://gohugo.io/templates/overview/"
+`https://gohugo.io/templates/overview/`
 
 The most useful page there is the one about the available functions:
 
-"https://gohugo.io/templates/functions/"
+`https://gohugo.io/templates/functions/`
 
 For assets that are completely static and don't need to go through the asset pipeline,
 use the `site/static` folder. Images, font-files, etc, all go there.
@@ -122,7 +122,7 @@ tasks run with a node environment variable named either `development` or
 You can access the environment variable inside the theme files with `getenv
 "NODE_ENV"`. See the following example for a conditional statement:
 
-    {{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
+{{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
 
 All tasks starting with *build* set the environment variable to `production` -
 the other will set it to `development`.
