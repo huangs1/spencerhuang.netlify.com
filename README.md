@@ -1,8 +1,6 @@
 # spencerhuang.netlify.com
 
-#Build my website with Hugo!
-
-**A Hugo boilerplate for creating truly epic websites**
+--Build my website with Hugo!
 
 This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site
 generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/)
@@ -28,7 +26,7 @@ Next step, clone this repository and run:
 npm install
 ```
 
-This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
+This will install all packages necessary to run Victor Hugo and its tasks.
 
 ### Development
 
@@ -56,7 +54,7 @@ or
 gulp server-preview
 ```
 
-Then visit http://localhost:3000/ *- or a new browser windows popped-up already
+Then visit "http://localhost:3000/" *- or a new browser windows popped-up already
 -* to preview your new website. BrowserSync will automatically reload the CSS
 or refresh the whole page, when stylesheets or content changes.
 
@@ -95,11 +93,11 @@ See [package.json](package.json#L7) or the included gulp file for all tasks.
 
 You can read more about Hugo's template language in their documentation here:
 
-https://gohugo.io/templates/overview/
+"https://gohugo.io/templates/overview/"
 
 The most useful page there is the one about the available functions:
 
-https://gohugo.io/templates/functions/
+"https://gohugo.io/templates/functions/"
 
 For assets that are completely static and don't need to go through the asset pipeline,
 use the `site/static` folder. Images, font-files, etc, all go there.
@@ -131,7 +129,8 @@ the other will set it to `development`.
 
 ## Deploying to Netlify
 
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+Push your clone to your own GitHub repository.
+
+[Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
 
 Now Netlify will build and deploy your site whenever you push to git.
