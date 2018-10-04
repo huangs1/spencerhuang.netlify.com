@@ -9,5 +9,5 @@ script:
   - mdl README.md
 
 after_success:
-coveralls
+  - coveralls
 
