@@ -22,4 +22,4 @@ script:
   - stylelint "**/*.scss, "**/*.css, **/*.html, **/*.md"
   # build
   - ./build.sh
-- hugo
+  - hugo
