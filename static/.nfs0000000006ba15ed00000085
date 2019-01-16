@@ -109,13 +109,8 @@
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
-<<<<<<< HEAD
 					<a class="downlad-btn" href="https://github.com/huangs1/Simple-Dungeon-Game" target="_blank"><b>Simple Dungeon Crawler Game </b></a>
 					<p class="margin-b-50"> A <a href="https://github.com/huangs1/Simple-Dungeon-Game">simple game</a> to be played in command-lines. A quick and easy way to revisit your memories. Definitely not for the faint of heart. If you are truly ready, please click on the "simple game" to read more about the process of making the project or click on the title to take you to setup the game. </p>
-=======
-					<a class="downlad-btn" href="https://github.com/huangs1/Simple-Dungeon-Game" target="_blank"><b>Simple Dungeon Game </b></a>
-					<p class="margin-b-50"> A <a class="download-btn" href="SimpleDungeonGameDescription.pdf" target="_blank">simple game</a> to be played in command-lines. A quick and easy way to revisit your memories. Definitely not for the faint of heart. If you are truly ready, please click on the title to take you toward setting up the game or click on "simple game" to read more about the process of making the project. </p>
->>>>>>> f4c1c5b97201c4baac74e50f7225268d8187f73b
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
