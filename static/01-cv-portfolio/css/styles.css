@@ -98,9 +98,9 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color: #FFA600; }
 
-.font-semi-white{ color: #ddd; }
-
 .font-lite-black{ color: #999; }
+
+.font-black{ color: #000; }
 
 
 /* ---------------------------------
@@ -212,7 +212,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{ background: #363636; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
@@ -240,36 +240,33 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 9. COUNTER SECTION
 --------------------------------- */
 
-.counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1;
-	background-image: url(../../images/sky.jpg); color: #fff; }
-
-.counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
-	right: 0; background: rgba(0,0,0, .2); }
-
-.counter{ position: relative; }
-
-.counter .title{ text-align: right; margin-right: 130px; }
-
-.counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
-
-
-/* RADIAL PREOGRESS SECTION */
+/* RADIAL PROGRESS SECTION */
 
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500;
-	padding-bottom: 25px!important; color: #333!important; }
+	padding-bottom: 25px!important; color: #000000!important; }
 
 .radial-progress .progressbar-text:after{ content:'%'; }
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
-	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #000000; }
 
+
+.radial-progress-grey{ position: relative; max-width: 200px; margin: 0 auto; }
+
+.radial-progress-grey .progressbar-text{ font-size: 2.2em; font-weight: 500;
+	padding-bottom: 25px!important; color: #ffffff!important; }
+
+.radial-progress-grey .progressbar-text:after{ content:'%'; }
+
+.radial-progress-grey .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #ffffff; }
 
 
 /* ---------------------------------
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 1px; background: #28023D; }
+.copyright{ text-align: center; padding: 1px; background: #737373; }
