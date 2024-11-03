@@ -94,6 +94,7 @@ b.max-bold{ font-weight: 700; }
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
 
+.margin-tb-10{ margin-top: 10px; margin-bottom: 10px; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
 .font-yellow{ color: #FFA600; }
